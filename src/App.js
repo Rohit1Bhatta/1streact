@@ -58,7 +58,8 @@ function App() {
     <Navbar title="TextUtils" abouttext="About Us" mode={mode} toggleMode={toggleMode}/>
     <Alert alert= {alert}  />
     <Routes>
-    <Route exact path="/" element={<TextForm heading ="Enter text to analyze" showAlert={showAlert}   mode={mode}  toggleMode={toggleMode}/>} />
+    <Route exact path="/" element={<TextForm heading ="Try Text Utils : A Text Counter , Word Counter and Extra Sapce Remover   " 
+    showAlert={showAlert}   mode={mode}  toggleMode={toggleMode}/>} />
     <Route exact path="about" element={<AboutUs  mode={mode} toggleMode={toggleMode}/>} />
     
 </Routes> 
